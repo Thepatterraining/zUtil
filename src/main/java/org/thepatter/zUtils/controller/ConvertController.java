@@ -43,7 +43,7 @@ public class ConvertController {
         Date date = new Date(1669759566L);
         Calendar calendar = Calendar.getInstance();
         calendar.set(2022,10,30,6,6,6);
-        calendar.add(Calendar.DAY_OF_MONTH, -1);
+        calendar.add(Calendar.MONTH, -1);
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         log.info("Date:{}",date);
 
